@@ -1,0 +1,80 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url('Image/bggg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+    height: 100%;
+    overflow-y: auto;
+    }
+
+
+/* Overlay dengan before */
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to bottom, #292667, white);
+    opacity: 1;
+    transition: opacity 0.5s ease;
+    z-index: 1;
+}
+
+/* Ketika body di-hover, overlay-nya hilang */
+body:hover::before {
+    opacity: 0;
+}
+
+/* Konten tetap tampil di atas overlay */
+.jumbotron,
+.log,
+.ketua,
+.content-section2,
+.content-section3,
+.navbar,
+.login {
+    position: relative;
+    z-index: 2;
+}
+
+
+.login {
+    box-shadow: 0px 0px 5px 1px white;
+    transition: box-shadow 0.3s ease;
+}
+
+.login:hover {
+    box-shadow: 0px 0px 10px 2px white;
+}
+
+.jumbotron {
+    padding-top: 230px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: white;
+}
+
+.columnlogin {
+    box-shadow: 0px 0px 5px 1px white;
+    transition: box-shadow 0.3s ease;
+}
+
+.log{
+    padding-top: 55px;
+    
+}
+
+.ketua,
+.ketua .container {
+    position: relative;
+    z-index: 2;
+}
+
+

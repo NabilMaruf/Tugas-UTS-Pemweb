@@ -1,0 +1,62 @@
+[
+    {
+        "username": "ketua01",
+        "password": "1234",
+        "role": "ketua",
+        "nama": "Aldi Ketua",
+        "divisi": "Pengurus Inti",
+        "periode": "2024\/2025",
+        "jabatan": "Ketua",
+        "status": "Aktif",
+        "keterangan": "Ketua Umum",
+        "foto": "ketua01.jpg"
+    },
+    {
+        "username": "sekre01",
+        "password": "1234",
+        "role": "sekretaris",
+        "nama": "Rina Sekretaris",
+        "divisi": "Pengurus Inti",
+        "periode": "2024\/2025",
+        "jabatan": "Sekretaris",
+        "status": "Aktif",
+        "keterangan": "Sekretaris 1",
+        "foto": "sekre01.jpg"
+    },
+    {
+        "nama": "Nabil",
+        "divisi": "NAbil",
+        "periode": "1",
+        "jabatan": "Anggota",
+        "status": "Aktif",
+        "keterangan": "1",
+        "username": "1",
+        "password": "1",
+        "role": "staf",
+        "foto": "1.png"
+    },
+    {
+        "nama": "Pa",
+        "divisi": "pa",
+        "periode": "pa",
+        "jabatan": "Anggota",
+        "status": "Aktif",
+        "keterangan": "Pa",
+        "username": "2",
+        "password": "2",
+        "role": "staf",
+        "foto": "2.jpeg"
+    },
+    {
+        "nama": "Nabil",
+        "divisi": "Nabil",
+        "periode": "Nabil",
+        "jabatan": "Anggota",
+        "status": "Aktif",
+        "keterangan": "Nabil",
+        "username": "Nabil",
+        "password": "Nabil",
+        "role": "staf",
+        "foto": "Nabil.jpeg"
+    }
+]
